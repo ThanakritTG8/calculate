@@ -1,0 +1,5 @@
+calculate:
+  build:
+    image: calculate
+    dockerfile: Dockerfile
+  
