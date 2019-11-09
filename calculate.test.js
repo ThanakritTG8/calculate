@@ -1,3 +1,8 @@
-const calculator = require('./calculator');
+const calculator = require('./calculate');
 
-describe(calc)
+describe(calculate => {
+
+    test("1 + 1 is 2", add(a, b) => {
+        
+    });
+});

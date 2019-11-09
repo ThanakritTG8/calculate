@@ -2,4 +2,5 @@ calculate:
   build:
     image: calculate
     dockerfile: Dockerfile
-  
+    environment: 
+    - CODECOV_TOKEN=9708f8fd-6cde-4d50-80be-5c5bdc6c224d
