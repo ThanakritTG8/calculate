@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sentry/node": "^5.7.1",
     "jest": "^24.9.0"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
-  
 }
