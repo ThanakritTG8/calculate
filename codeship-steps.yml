@@ -1,3 +1,3 @@
 name: test
-service : calculate
+service : calculator
 command: npm test
