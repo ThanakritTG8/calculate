@@ -8,6 +8,7 @@ Sentry.configureScope(function(scope) {
       username: 'Thanakrit Thongkhamdee'
     });
    });
+   
 const calculator = require('./calculate');
 
 
