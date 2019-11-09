@@ -1,8 +1,12 @@
 const calculator = require('./calculate');
 
-describe(calculate => {
+describe("Add function", () => {
 
-    test("1 + 1 is 2", add(a, b) => {
-        
+    test("1 + 1 = 2", () => {
+        const a = 1;
+        const b = 1;
+
+        const result = calculator.add(a, b);
+        expect(result).toEqual(2);
     });
 });
